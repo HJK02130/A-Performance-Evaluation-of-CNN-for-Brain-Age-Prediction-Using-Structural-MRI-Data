@@ -1,0 +1,12 @@
+{
+  "dataset_path": "**dataset path",
+  "batch_size": 16,
+  "learning_rate": 0.0006,
+  "weight_decay": 0.0006,
+  "epochs": 100,
+  "initial_lr_rampup": 20,
+  "3d": false,
+  "mixup": false,
+  "mixup_alpha": 0.4,
+  "save_path": "**save path"
+}
