@@ -1,4 +1,4 @@
-# <div align=center> 자기공명영상 데이터를 이용한  합성곱 신경망 기반 뇌연령 예측 모델의 성능 평가 </div>
+# <div align=center> 자기공명영상 데이터를 이용한 합성곱 신경망 기반 <br /> 뇌연령 예측 모델의 성능 평가 </div>
 ### <div align=center> A Performance Evaluation of CNN for Brain Age Prediction Using Structural MRI Data
  </div>
 
