@@ -7,6 +7,7 @@
 	<br />
 	<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/HJK02130/A-Performance-Evaluation-of-CNN-for-Brain-Age-Prediction-Using-Structural-MRI-Data?style=flat-square">
 	<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/HJK02130/A-Performance-Evaluation-of-CNN-for-Brain-Age-Prediction-Using-Structural-MRI-Data?style=flat-square">
+	<img alt="GitHub language count" src="https://img.shields.io/github/languages/count/HJK02130/A-Performance-Evaluation-of-CNN-for-Brain-Age-Prediction-Using-Structural-MRI-Data?style=flat-square">
 	<br />
 	<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/HJK02130/A-Performance-Evaluation-of-CNN-for-Brain-Age-Prediction-Using-Structural-MRI-Data?style=social">
 	<img alt="GitHub watchers" src="https://img.shields.io/github/watchers/HJK02130/A-Performance-Evaluation-of-CNN-for-Brain-Age-Prediction-Using-Structural-MRI-Data?style=social">
