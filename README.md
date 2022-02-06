@@ -33,7 +33,7 @@
 <br />
 <br />
 
-> ### 데이터
+> ### 데이터 Data
 
 **<div align=center> ![](https://lh3.googleusercontent.com/5XcKpqI6HX87bEzfQkRu3mhLDJ9SE1RYE-DAx2rE4xspQhZhss6jMVXiFzR9lApnThjuhVAElx3IxMvF_iQfRRGmDCd9WnXB-dIR_RQU5QZ1Bg2WVwsfgVhyFIJXgPz8y8l5nXlm) </div>** 
 raw T1 강조 MRI 영상의 INU(Information Non-Uniformity)를 교정하고 두개골을 제거하는 전처리를 수행한 최종 579명의 실제연령 정보 및 뇌 MRI 데이터를 7:1:2의 비율로 각각 training set(n=405), validation set(n=58), test set(n=116)으로 나누었다. 이 때, 모든 연령대의 데이터가 각각의 data set에 비슷한 비율로 분포하도록 data set을 나누었다.
@@ -41,21 +41,21 @@ raw T1 강조 MRI 영상의 INU(Information Non-Uniformity)를 교정하고 두�
 <br />
 <br />
 
-> ### 모델 : 3D-CNN, 2D-CNN, VGGNet, ResNet18, ResNet34, ResNet50, 2D-RNN(Modifying)
+> ### 모델 Model : 3D-CNN, 2D-CNN, VGGNet, ResNet18, ResNet34, ResNet50, 2D-RNN(Modifying)
 
 각 모델은 Adam optimizer을 사용하였고 100 epoch 학습하였다. 3D-CNN, VGGNet, ResNet모델의 batch size는 16, weight decay와 learning rate는 각각 0.0006으로 설정하였고, 2D-CNN 모델의 batch size는 8, weight decay와 learning rate는 각각 0.0001로 설정하였다. 각 epoch마다 학습이 완료된 모델을 validation set을 적용하여 Mean Absolute Error(MAE) loss를 계산하고 가장 MAE 값이 낮은 모델을 이용하여 test set에 대한 성능 평가를 수행하였다.
 
 <br />
 <br />
 
-> ### 성능평가지표
+> ### 성능평가지표 Performance Evaluation Index
 
 각각의 모델에서 예측된 뇌연령과 실제연령의 MAE와 상관계수(Pearson correlation coefficient, R)를 계산하여 각 모델의 성능을 비교하였다.
 
 <br />
 <br />
 
-> ### 결과
+> ### 결과 Result
 
 **<div align=center> ![](https://lh5.googleusercontent.com/sTtAcOGKzeEOnNiNxr5YvS955DiRc5Px_UCa4Psi79b2HkJBR49OWdfVFFlC4xxwelr2uO8KA1asbTWLynDlMKgaJ4wWtTE0WjM4nbWvHSONbPyzu6b44sqPUzbwt0cimTEm-lJV) </div>**
  테스트한 6가지 딥러닝 모델 중 2D-CNN 모델이 가장 높은 성능을 보였다(MAE = 5.77, R = 0.88). 반대로 ResNet 모델이 가장 낮은 성능을 보였다(MAE = 18.15, R = 0.09).
@@ -63,6 +63,6 @@ raw T1 강조 MRI 영상의 INU(Information Non-Uniformity)를 교정하고 두�
 <br />
 <br />
 
-> ### 결론
+> ### 결론 Conclusion
 
 본 연구에서는 다양한 CNN 기반 모델들의 성능 결과를 정량적으로 제시하였으며 추후 딥러닝 기반 뇌연령 예측 모델 개발을 위해 활용될 수 있을 것이다. T1 강조 MRI 데이터를 이용한 딥러닝 기반 뇌연령 예측 모델의 성능 평가를 통해 뇌연령 예측 모델의 정확도를 개선하고 신경퇴행성 질환 및 정신질환 환자의 가속 노화 예측력을 향상시킬 수 있을 것으로 기대한다.
