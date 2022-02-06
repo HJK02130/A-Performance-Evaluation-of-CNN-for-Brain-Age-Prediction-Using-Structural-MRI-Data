@@ -29,7 +29,10 @@
 <div align=center>
 	<a href="mailto:hjk02130@gmail.com"> <img src ="https://img.shields.io/badge/Gmail-EA4335.svg?&style=flat-squar&logo=Gmail&logoColor=white"/> </a> 
 	<a href = "https://github.com/HJK02130"> <img src ="https://img.shields.io/badge/Github-181717.svg?&style=flat-squar&logo=Github&logoColor=white"/> </a> </div>
-
+	
+	<br />
+	<br />
+	
 본 연구에서는 뇌 구조적(structural) T1 강조 MRI 데이터를 이용하여 다양한 Convolutional Neural Network (CNN) 기반 뇌연령 예측 모델의 성능을 비교하고 평가하였다. 뇌연령 예측 모델의 성능을 평가하기 위해 실제연령과 예측된 뇌연령의 Mean Absolute Error(MAE)와 상관관계(Pearson Correlation Coefficient, R)를 성능 평가 지표로 사용하였다. 성능 평가 결과, 테스트한 CNN 아키텍처(architecture) 기반 딥러닝 모델중 2D-CNN 모델이 5.77의 MAE와 0.88의 R로 가장 높은 성능을 보였다. T1 강조 MRI 데이터를 이용한 딥러닝 기반 뇌연령 예측 모델의 성능 평가를 통해 뇌연령 예측 모델의 정확도를 개선하고 신경퇴행성질환 및 정신질환 환자의 가속 노화 예측력을 향상시킬 수 있을 것으로 기대한다.
 
 ## 데이터
