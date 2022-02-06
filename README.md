@@ -41,7 +41,7 @@ raw T1 강조 MRI 영상의 INU(Information Non-Uniformity)를 교정하고 두�
 <br />
 <br />
 
-> ### 모델
+> ### 모델 : 3D-CNN, 2D-CNN, VGGNet, ResNet18, ResNet34, ResNet50, 2D-RNN
 
 각 모델은 Adam optimizer을 사용하였고 100 epoch 학습하였다. 3D-CNN, VGGNet, ResNet모델의 batch size는 16, weight decay와 learning rate는 각각 0.0006으로 설정하였고, 2D-CNN 모델의 batch size는 8, weight decay와 learning rate는 각각 0.0001로 설정하였다. 각 epoch마다 학습이 완료된 모델을 validation set을 적용하여 Mean Absolute Error(MAE) loss를 계산하고 가장 MAE 값이 낮은 모델을 이용하여 test set에 대한 성능 평가를 수행하였다.
 
