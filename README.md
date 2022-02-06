@@ -48,7 +48,7 @@ raw T1 강조 MRI 영상의 INU(Information Non-Uniformity)를 교정하고 두�
 
 > ## 결과
 
-<div align=center> ![](https://lh5.googleusercontent.com/sTtAcOGKzeEOnNiNxr5YvS955DiRc5Px_UCa4Psi79b2HkJBR49OWdfVFFlC4xxwelr2uO8KA1asbTWLynDlMKgaJ4wWtTE0WjM4nbWvHSONbPyzu6b44sqPUzbwt0cimTEm-lJV) </div>
+**<div align=center> ![](https://lh5.googleusercontent.com/sTtAcOGKzeEOnNiNxr5YvS955DiRc5Px_UCa4Psi79b2HkJBR49OWdfVFFlC4xxwelr2uO8KA1asbTWLynDlMKgaJ4wWtTE0WjM4nbWvHSONbPyzu6b44sqPUzbwt0cimTEm-lJV) </div>**
  테스트한 6가지 딥러닝 모델 중 2D-CNN 모델이 가장 높은 성능을 보였다(MAE = 5.77, R = 0.88). 반대로 ResNet 모델이 가장 낮은 성능을 보였다(MAE = 18.15, R = 0.09).
 
 > ## 결론
