@@ -73,9 +73,6 @@ Filtree(modifying)
     + Mean Absolute Error, MAE
     + Pearson Correlation Coefficient, R
 
-### Repository Explaination
-modifying
-
 ### Result
 <div align=center>  <img src="./img/result1.png"> </div>
 <div align=center> Performance evaluation result </div> <br/>
@@ -84,7 +81,6 @@ The 2D-CNN model showed the highest performance (MAE = 5.77, R = 0.88). Converse
 <div align=center> MAE of actual age and predicted brain age for each model for test set </div> <br/><br/>
 <div align=center>  <img src="./img/result3.png"> </div>
 <div align=center> R of actual age and predicted brain age for each model for the test set </div> <br/><br/>
-
 
 
 ### Conclusion
