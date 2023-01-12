@@ -76,7 +76,7 @@ Filtree(modifying)
 ### Result
 <div align=center>  <img src="./img/result1.png"> </div>
 <div align=center> Performance evaluation result </div> <br/>
-The 2D-CNN model showed the highest performance (MAE = 5.77, R = 0.88). Conversely, the ResNet model showed the lowest performance (MAE = 18.15, R = 0.09).<br/><br/><br/>
+Overall, CNN-based deep learning models had MAE values of about 4.69-9.99 and R values of 0.57-0.8 for the test set. The 2D-CNN model showed the highest performance (MAE = 4.69, R = 0.87). Conversely, the ResNet model showed the lowest performance (MAE = 9.99, R = 0.57).<br/><br/><br/>
 <div align=center>  <img src="./img/result2.png"> </div>
 <div align=center> MAE of actual age and predicted brain age for each model for test set </div> <br/><br/>
 <div align=center>  <img src="./img/result3.png"> </div>
