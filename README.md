@@ -9,11 +9,10 @@
 4. [Issue](#issue)
 5. [Usage](#usage)
 6. [Architecture](#architecture)
-7. [Repository Explaination](#repository-explaination)
-8. [Result](#result)
-9. [Conclusion](#conclusion)
-10. [Reference](#reference)
-11. [Developer](#developer)
+7. [Result](#result)
+8. [Conclusion](#conclusion)
+9. [Reference](#reference)
+10. [Developer](#developer)
 
 ### Overview
 [[Paper PDF]](https://drive.google.com/file/d/1HIQyfWCf2v_nSxT9akmXAhBki5N1vN7B/view)<br/>
