@@ -16,6 +16,7 @@
 11. [Developer](#developer)
 
 ### Overview
+[[Paper PDF]]()<br/>
 Brain age has been proposed as a biomarker for early diagnosis and prediction of neurodegenerative diseases and mental diseases. Recent advances in deep learning techniques improve the accuracy of brain age prediction using magnetic resonance imaging (MRI) data, and it is necessary to quantitatively compare and verify the accuracy of various deep learning-based models for brain age prediction. In this study, the performance of various convolutional neural network (CNN) based brain age prediction models was compared and evaluated using structural T1 weighted MRI data. We used Mean Absolute Error (MAE) and correlation (R) of actual age and predicted brain age as performance evaluation indicators to evaluate the performance of the brain age prediction model. Performance evaluation results show that the 2D-CNN model performed the highest with MAE of 4.69 and R of 0.87 among the tested CNN architecture-based deep learning models. Performance evaluation of deep learning based brain age prediction models using T1 weighted MRI data is expected to improve the accuracy of brain age prediction models and the predictive power of accelerated aging in patients with neurodegenerative and mental diseases.
 
 뇌연령(brain age)은 신경퇴행성 질환 및 정신질환을 조기 진단 및 예측하기 위한 생체지표로 제안되었다. 최근 딥러닝 기법의 발전은 자기공명영상(Magnetic Resonance Imaging, MRI) 데이터를 이용한 뇌연 령 예측의 정확도를 향상시키고 있으며, 뇌연령 예측을 위한 다양한 딥러닝 기반 모델의 정확도를 정량적으로 비교하고 검증할 필요가 있다. 본 연구에서는 뇌 구조적(structural) T1 강조 MRI 데이터를 이용하여 다양한 Convolutional Neural Network (CNN) 기반 뇌연령 예측 모델의 성능을 비교하고 평가하였다. 뇌연령 예측 모델의 성능을 평가하기 위해 실제연령과 예측된 뇌연령의 Mean Absolute Error(MAE)와 상관관계(Pearson Correlation Coefficient, R)를 성능 평가 지표로 사용하였다. 성능 평가 결과, 테스트한 CNN 아키텍처(architecture) 기반 딥러닝 모델중 2D-CNN 모델이 4.69의 MAE와 0.87의 R로 가장 높은 성능을 보였다. T1 강조 MRI 데이터를 이용한 딥러닝 기반 뇌연령 예측 모델의 성능 평가를 통해 뇌연령 예측 모델의 정확도를 개선하고 신경퇴행성질환 및 정신질환 환자의 가속 노화 예측력을 향상시킬 수 있을 것으로 기대한다
@@ -48,8 +49,8 @@ Filtree(modifying)
             2. Duplicate data removal
         + Split
             1. Split each data set to have a similar distribution and range of age
-            
-**<div align=center> ![](https://lh3.googleusercontent.com/5XcKpqI6HX87bEzfQkRu3mhLDJ9SE1RYE-DAx2rE4xspQhZhss6jMVXiFzR9lApnThjuhVAElx3IxMvF_iQfRRGmDCd9WnXB-dIR_RQU5QZ1Bg2WVwsfgVhyFIJXgPz8y8l5nXlm) </div>** 
+	    
+	    ![](https://lh3.googleusercontent.com/5XcKpqI6HX87bEzfQkRu3mhLDJ9SE1RYE-DAx2rE4xspQhZhss6jMVXiFzR9lApnThjuhVAElx3IxMvF_iQfRRGmDCd9WnXB-dIR_RQU5QZ1Bg2WVwsfgVhyFIJXgPz8y8l5nXlm)
 
 + Model
     + Pre-trained model
@@ -74,8 +75,15 @@ Filtree(modifying)
 modifying
 
 ### Result
-**<div align=center> ![](https://lh5.googleusercontent.com/sTtAcOGKzeEOnNiNxr5YvS955DiRc5Px_UCa4Psi79b2HkJBR49OWdfVFFlC4xxwelr2uO8KA1asbTWLynDlMKgaJ4wWtTE0WjM4nbWvHSONbPyzu6b44sqPUzbwt0cimTEm-lJV) </div>**
-The 2D-CNN model showed the highest performance (MAE = 5.77, R = 0.88). Conversely, the ResNet model showed the lowest performance (MAE = 18.15, R = 0.09).
+<div align=center>  <img src="./img/result1.png"> </div>
+<div align=center> Performance evaluation result </div> <br/>
+The 2D-CNN model showed the highest performance (MAE = 5.77, R = 0.88). Conversely, the ResNet model showed the lowest performance (MAE = 18.15, R = 0.09).<br/><br/><br/>
+<div align=center>  <img src="./img/result2.png"> </div>
+<div align=center> MAE of actual age and predicted brain age for each model for test set </div> <br/><br/>
+<div align=center>  <img src="./img/result3.png"> </div>
+<div align=center> R of actual age and predicted brain age for each model for the test set </div> <br/><br/>
+
+
 
 ### Conclusion
 In this study, the performance results of various CNN based models are quantitatively presented and can be used to develop deep learning-based brain age prediction models in the future. Performance evaluation of deep learning-based brain age prediction models using T1-emphasized MRI data is expected to improve the accuracy of brain age prediction models and improve the predictive power of accelerated aging in patients with neurodegenerative and mental diseases.
