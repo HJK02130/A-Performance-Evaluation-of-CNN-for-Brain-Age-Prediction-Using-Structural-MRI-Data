@@ -1,68 +1,94 @@
-# <div align=center> 자기공명영상 데이터를 이용한 합성곱 신경망 기반 <br /> 뇌연령 예측 모델의 성능 평가 </div>
-### <div align=center> A Performance Evaluation of CNN for Brain Age Prediction Using Structural MRI Data
- </div>
+# <div align=center> A Performance Evaluation of CNN for Brain Age Prediction <br/> Using Structural MRI Data </div>
 
-<div align=center>
-	<br />
-	<br />
-	<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/HJK02130/A-Performance-Evaluation-of-CNN-for-Brain-Age-Prediction-Using-Structural-MRI-Data?style=flat-square">
-	<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/HJK02130/A-Performance-Evaluation-of-CNN-for-Brain-Age-Prediction-Using-Structural-MRI-Data?style=flat-square">
-	<img alt="GitHub language count" src="https://img.shields.io/github/languages/count/HJK02130/A-Performance-Evaluation-of-CNN-for-Brain-Age-Prediction-Using-Structural-MRI-Data?style=flat-square">
-	<br />
-	<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/HJK02130/A-Performance-Evaluation-of-CNN-for-Brain-Age-Prediction-Using-Structural-MRI-Data?style=social">
-	<img alt="GitHub watchers" src="https://img.shields.io/github/watchers/HJK02130/A-Performance-Evaluation-of-CNN-for-Brain-Age-Prediction-Using-Structural-MRI-Data?style=social">
-	<img alt="GitHub issues" src="https://img.shields.io/github/issues/HJK02130/A-Performance-Evaluation-of-CNN-for-Brain-Age-Prediction-Using-Structural-MRI-Data">
-	<br />
-	<img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/HJK02130/A-Performance-Evaluation-of-CNN-for-Brain-Age-Prediction-Using-Structural-MRI-Data?style=flat-square">
-	<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/HJK02130/A-Performance-Evaluation-of-CNN-for-Brain-Age-Prediction-Using-Structural-MRI-Data?style=flat-square">
-	</div>
-<br />
+<div align=right> <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/HJK02130/A-Performance-Evaluation-of-CNN-for-Brain-Age-Prediction-Using-Structural-MRI-Data?style=flat-square"> <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/HJK02130/A-Performance-Evaluation-of-CNN-for-Brain-Age-Prediction-Using-Structural-MRI-Data?style=flat-square"> <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/HJK02130/A-Performance-Evaluation-of-CNN-for-Brain-Age-Prediction-Using-Structural-MRI-Data?style=flat-square"> </div>
 
-### <div align=center> :computer: Language & Development Environment :computer: </div>
-<div align=center>
-	<img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/> 
-	<img src="https://img.shields.io/badge/GoogleColab-F9AB00?style=flat-square&logo=GoogleColab&logoColor=white"/> </div>
+### Contents
+1. [Overview](#overview)
+2. [Requirements](#requirements)
+3. [Languages and Development Tools](#languages-and-development-tools)
+4. [Issue](#issue)
+5. [Usage](#usage)
+6. [Architecture](#architecture)
+7. [Repository Explaination](#repository-explaination)
+8. [Result](#result)
+9. [Conclusion](#conclusion)
+10. [Reference](#reference)
+11. [Developer](#developer)
 
-<br />
+### Overview
+Brain age has been proposed as a biomarker for early diagnosis and prediction of neurodegenerative diseases and mental diseases. Recent advances in deep learning techniques improve the accuracy of brain age prediction using magnetic resonance imaging (MRI) data, and it is necessary to quantitatively compare and verify the accuracy of various deep learning-based models for brain age prediction. In this study, the performance of various convolutional neural network (CNN) based brain age prediction models was compared and evaluated using structural T1 weighted MRI data. We used Mean Absolute Error (MAE) and correlation (R) of actual age and predicted brain age as performance evaluation indicators to evaluate the performance of the brain age prediction model. Performance evaluation results show that the 2D-CNN model performed the highest with MAE of 4.69 and R of 0.87 among the tested CNN architecture-based deep learning models. Performance evaluation of deep learning based brain age prediction models using T1 weighted MRI data is expected to improve the accuracy of brain age prediction models and the predictive power of accelerated aging in patients with neurodegenerative and mental diseases.
 
-### <div align=center> :keyboard: Developer : Hyun Ji Kim :keyboard: </div>
-<div align=center>
-	<a href="mailto:hjk02130@gmail.com"> <img src ="https://img.shields.io/badge/Gmail-EA4335.svg?&style=flat-squar&logo=Gmail&logoColor=white"/> </a> 
-	<a href = "https://github.com/HJK02130"> <img src ="https://img.shields.io/badge/Github-181717.svg?&style=flat-squar&logo=Github&logoColor=white"/> </a> </div>
-	
-<br />
-<br />
+뇌연령(brain age)은 신경퇴행성 질환 및 정신질환을 조기 진단 및 예측하기 위한 생체지표로 제안되었다. 최근 딥러닝 기법의 발전은 자기공명영상(Magnetic Resonance Imaging, MRI) 데이터를 이용한 뇌연 령 예측의 정확도를 향상시키고 있으며, 뇌연령 예측을 위한 다양한 딥러닝 기반 모델의 정확도를 정량적으로 비교하고 검증할 필요가 있다. 본 연구에서는 뇌 구조적(structural) T1 강조 MRI 데이터를 이용하여 다양한 Convolutional Neural Network (CNN) 기반 뇌연령 예측 모델의 성능을 비교하고 평가하였다. 뇌연령 예측 모델의 성능을 평가하기 위해 실제연령과 예측된 뇌연령의 Mean Absolute Error(MAE)와 상관관계(Pearson Correlation Coefficient, R)를 성능 평가 지표로 사용하였다. 성능 평가 결과, 테스트한 CNN 아키텍처(architecture) 기반 딥러닝 모델중 2D-CNN 모델이 4.69의 MAE와 0.87의 R로 가장 높은 성능을 보였다. T1 강조 MRI 데이터를 이용한 딥러닝 기반 뇌연령 예측 모델의 성능 평가를 통해 뇌연령 예측 모델의 정확도를 개선하고 신경퇴행성질환 및 정신질환 환자의 가속 노화 예측력을 향상시킬 수 있을 것으로 기대한다
 
-> ### 데이터 Data
+### Requirements
++ python 3.6
 
+### Languages and Development Tools
+<img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/> <img src="https://img.shields.io/badge/Google Colab-F9AB00?style=flat-square&logo=GoogleColab&logoColor=white"/>
+
+### Issue
+2D-RNN is modifying
+
+### Usage
+Filtree(modifying)
+
+### Architecture
++ Data
+    + Data
+        + T1 weighted MRI data
+        + Excel data including information of the person who took the MRI
+        <br/>
+    + Preprocessing
+        + MRI data
+            1. Information Non-Uniformity(INU) correction
+            2. Skull removal
+            3. Size (121, 145, 121)
+        + Excel data
+            1. Imputation (average age)
+            2. Duplicate data removal
+        + Split
+            1. Split each data set to have a similar distribution and range of age
+            
 **<div align=center> ![](https://lh3.googleusercontent.com/5XcKpqI6HX87bEzfQkRu3mhLDJ9SE1RYE-DAx2rE4xspQhZhss6jMVXiFzR9lApnThjuhVAElx3IxMvF_iQfRRGmDCd9WnXB-dIR_RQU5QZ1Bg2WVwsfgVhyFIJXgPz8y8l5nXlm) </div>** 
-raw T1 강조 MRI 영상의 INU(Information Non-Uniformity)를 교정하고 두개골을 제거하는 전처리를 수행한 최종 579명의 실제연령 정보 및 뇌 MRI 데이터를 7:1:2의 비율로 각각 training set(n=405), validation set(n=58), test set(n=116)으로 나누었다. 이 때, 모든 연령대의 데이터가 각각의 data set에 비슷한 비율로 분포하도록 data set을 나누었다.
 
-<br />
-<br />
++ Model
+    + Pre-trained model
+        + 2D-CNN, 3D-CNN, VGGNet, ResNet18, ResNet34, ResNet50
+        <br/>
+    + Setting
+        + 3D-CNN, VGGNet, ResNet
+            1. batch size 16
+            2. weight decay and learning rate 0.0006
+        + 2D-CNN
+            1. batch size 8
+            2. wegith decay and learning rate 0.0001
+        + Other settings
+            1. Adam optimizer
+            2. 100 epoch
+        <br/><br/>
++ Evaluation Metrics
+    + Mean Absolute Error, MAE
+    + Pearson Correlation Coefficient, R
 
-> ### 모델 Model : 3D-CNN, 2D-CNN, VGGNet, ResNet18, ResNet34, ResNet50, 2D-RNN(Modifying)
+### Repository Explaination
+modifying
 
-각 모델은 Adam optimizer을 사용하였고 100 epoch 학습하였다. 3D-CNN, VGGNet, ResNet모델의 batch size는 16, weight decay와 learning rate는 각각 0.0006으로 설정하였고, 2D-CNN 모델의 batch size는 8, weight decay와 learning rate는 각각 0.0001로 설정하였다. 각 epoch마다 학습이 완료된 모델을 validation set을 적용하여 Mean Absolute Error(MAE) loss를 계산하고 가장 MAE 값이 낮은 모델을 이용하여 test set에 대한 성능 평가를 수행하였다.
-
-<br />
-<br />
-
-> ### 성능평가지표 Performance Evaluation Index
-
-각각의 모델에서 예측된 뇌연령과 실제연령의 MAE와 상관계수(Pearson correlation coefficient, R)를 계산하여 각 모델의 성능을 비교하였다.
-
-<br />
-<br />
-
-> ### 결과 Result
-
+### Result
 **<div align=center> ![](https://lh5.googleusercontent.com/sTtAcOGKzeEOnNiNxr5YvS955DiRc5Px_UCa4Psi79b2HkJBR49OWdfVFFlC4xxwelr2uO8KA1asbTWLynDlMKgaJ4wWtTE0WjM4nbWvHSONbPyzu6b44sqPUzbwt0cimTEm-lJV) </div>**
- 테스트한 6가지 딥러닝 모델 중 2D-CNN 모델이 가장 높은 성능을 보였다(MAE = 5.77, R = 0.88). 반대로 ResNet 모델이 가장 낮은 성능을 보였다(MAE = 18.15, R = 0.09).
+The 2D-CNN model showed the highest performance (MAE = 5.77, R = 0.88). Conversely, the ResNet model showed the lowest performance (MAE = 18.15, R = 0.09).
 
-<br />
-<br />
+### Conclusion
+In this study, the performance results of various CNN based models are quantitatively presented and can be used to develop deep learning-based brain age prediction models in the future. Performance evaluation of deep learning-based brain age prediction models using T1-emphasized MRI data is expected to improve the accuracy of brain age prediction models and improve the predictive power of accelerated aging in patients with neurodegenerative and mental diseases.
 
-> ### 결론 Conclusion
+### Reference
+[1] Pedro L. Ballester, Laura Tomaz da Silva, Matheus Marcon, Nathalia Bianchini Esper, Benicio N. Frey, Augusto Bunchweitz, Felipe Meneguzzi. Predicting Brain Age and Slice Level: Convolutional Neural Networks and Consequences for Interpretability, pp.1-8. 2021.<br/>
+[2] Umang Gupta, Pradeep K. Lam, Greg Ver Steeg, Paul M. Thompson. Improved Brain Age Estimation with Slice-based Set Networks, pp.1-3. 2021.<br/>
+[3] Pradeep K. Lam, Vigneshwaran Santhalingam, Parth Suresh, Rahul Baboota, Alyssa H. Zhu, Sophia I. Thomopoulos, Neda Jahanshad, Paul M. Thompson. Accurate brain age prediction using recurrent slicebased networks, pp.1-2. 2020.<br/>
+[4] B. A. Jonsson, G. Bjornsdottir, T. E. Thorgeirsson, L. M. Ellingsen, G. Bragi Walters, D. F. Gudbjartsson, H. Stefansson, K. Stefansson, M. O. Ulfarsson. Brain age prediction using deep learning uncovers associated sequence variants, p.2. 2019.<br/>
+[5] Muhammad Shahid Bhatti, Muhammad Usman Akram, Muhammad Ajmal, Ayesha Sadiq, Saif Ullah, Muhammad Shakil. Information Extraction From Images, pp.1273-1276. 2014.<br/>
+[6] CAT, http://www.neuro.uni-jena.de/cat/<br/>
+[7] James H Cole, Rudra P K Poudel, Dimosthenis Tsagkrasoulis, Matthan W A Caan, Claire Steves, Tim D Spector, Giovanni Montana. Predicting brain age with deep learning from raw imaging data results in a reliable and heritable biomarker, pp.8-9. 2017.<br/>
 
-본 연구에서는 다양한 CNN 기반 모델들의 성능 결과를 정량적으로 제시하였으며 추후 딥러닝 기반 뇌연령 예측 모델 개발을 위해 활용될 수 있을 것이다. T1 강조 MRI 데이터를 이용한 딥러닝 기반 뇌연령 예측 모델의 성능 평가를 통해 뇌연령 예측 모델의 정확도를 개선하고 신경퇴행성 질환 및 정신질환 환자의 가속 노화 예측력을 향상시킬 수 있을 것으로 기대한다.
+### Developer
+Hyunji Kim <a href="mailto:hjk02130@gmail.com"> <img src ="https://img.shields.io/badge/Gmail-EA4335.svg?&style=flat-squar&logo=Gmail&logoColor=white"/> </a> 
+	<a href = "https://github.com/HJK02130"> <img src ="https://img.shields.io/badge/Github-181717.svg?&style=flat-squar&logo=Github&logoColor=white"/> </a>
