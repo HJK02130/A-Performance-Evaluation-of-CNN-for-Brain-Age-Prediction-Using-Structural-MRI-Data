@@ -94,9 +94,6 @@ In this study, the performance results of various CNN based models are quantitat
 [5] Muhammad Shahid Bhatti, Muhammad Usman Akram, Muhammad Ajmal, Ayesha Sadiq, Saif Ullah, Muhammad Shakil. Information Extraction From Images, pp.1273-1276. 2014.<br/>
 [6] CAT, http://www.neuro.uni-jena.de/cat/<br/>
 [7] James H Cole, Rudra P K Poudel, Dimosthenis Tsagkrasoulis, Matthan W A Caan, Claire Steves, Tim D Spector, Giovanni Montana. Predicting brain age with deep learning from raw imaging data results in a reliable and heritable biomarker, pp.8-9. 2017.<br/>
-[8] https://github.com/lsa-pucrs/pac-2019 
-[9] https://github.com/umgupta/2d-slice-set-networks-for-brain-age 
-[10] https://github.com/USC-IGC/RNN_Slice_BrainAge
 
 ### Developer
 Hyunji Kim <a href="mailto:hjk02130@gmail.com"> <img src ="https://img.shields.io/badge/Gmail-EA4335.svg?&style=flat-squar&logo=Gmail&logoColor=white"/> </a> 
