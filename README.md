@@ -23,6 +23,7 @@ Brain age has been proposed as a biomarker for early diagnosis and prediction of
 
 ### Requirements
 + python 3.6
++ ResNet modeling takes a long time !! 
 
 ### Languages and Development Tools
 <img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/> <img src="https://img.shields.io/badge/Google Colab-F9AB00?style=flat-square&logo=GoogleColab&logoColor=white"/>
