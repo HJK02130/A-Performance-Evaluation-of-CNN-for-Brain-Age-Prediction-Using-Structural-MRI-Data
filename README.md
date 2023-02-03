@@ -32,7 +32,57 @@ Brain age has been proposed as a biomarker for early diagnosis and prediction of
 + ResNet modeling takes a long time !! 
 
 ### Usage
-Filtree(modifying)
+.
+├── 2DCNN/<br/>
+│   ├── config/<br/>
+│   │   └── config.py<br/>
+│   ├── data/<br/>
+│   │   └── splits.py<br/>
+│   ├── lib/<br/>
+│   │   ├── data/<br/>
+│   │   │   ├── mnist.py<br/>
+│   │   │   └── util.py<br/>
+│   │   ├── utils/<br/>
+│   │   │   ├── logging.py<br/>
+│   │   │   ├── math.py<br/>
+│   │   │   ├── optimizer.py<br/>
+│   │   │   ├── os.py<br/>
+│   │   │   ├── samplers.py<br/>
+│   │   │   └── torch_utils.py<br/>
+│   │   ├── base_model.py<br/>
+│   │   ├── base_trainer.py<br/>
+│   │   └── standard_nn.py<br/>
+│   ├── src/<br/>
+│   │   ├── arch/<br/>
+│   │   │   ├── brain_age_3d.py<br/>
+│   │   │   ├── brain_age_slice_lstm.py<br/>
+│   │   │   └── brain_age_slice_set.py<br/>
+│   │   ├── common/<br/>
+│   │   │   ├── data/<br/><br/>
+│   │   │   │   └── ukbb_brain_age.py<br/>
+│   │   │   ├── data_utils.py<br/>
+│   │   │   └── dataset.py<br/>
+│   │   └── models/<br/>
+│   │       └── regression.py<br/>
+│   ├── tests/<br/>
+│   │   └── verify_mri_lstm.py<br/>
+│   └── main.py<br/>
+├── 2DRNN/<br/>
+│   ├── src/<br/>
+│   │   ├── data_loader.py<br/>
+│   │   ├── main.py<br/>
+│   │   └── model.py<br/>
+│   └── weights/<br/>
+│       └── epoch=63-step=25919.ckpt<br/>
+└── 3DCNN_VGGNet/<br/>
+    ├── internally_replaced_utils.py<br/>
+    ├── config.json<br/>
+    ├── dataset.py<br/>
+    ├── main.py<br/>
+    ├── model.py<br/>
+    ├── model_resnet.py<br/>
+    ├── sliced_whole_validation.py<br/>
+    └── transforms.py<br/>
 
 ### Architecture
 + Data
