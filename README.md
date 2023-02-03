@@ -58,7 +58,7 @@ Brain age has been proposed as a biomarker for early diagnosis and prediction of
 │   │   │   ├── brain_age_slice_lstm.py<br/>
 │   │   │   └── brain_age_slice_set.py<br/>
 │   │   ├── common/<br/>
-│   │   │   ├── data/<br/><br/>
+│   │   │   ├── data/<br/>
 │   │   │   │   └── ukbb_brain_age.py<br/>
 │   │   │   ├── data_utils.py<br/>
 │   │   │   └── dataset.py<br/>
@@ -67,6 +67,7 @@ Brain age has been proposed as a biomarker for early diagnosis and prediction of
 │   ├── tests/<br/>
 │   │   └── verify_mri_lstm.py<br/>
 │   └── main.py<br/>
+│<br/>
 ├── 2DRNN/<br/>
 │   ├── src/<br/>
 │   │   ├── data_loader.py<br/>
@@ -74,6 +75,7 @@ Brain age has been proposed as a biomarker for early diagnosis and prediction of
 │   │   └── model.py<br/>
 │   └── weights/<br/>
 │       └── epoch=63-step=25919.ckpt<br/>
+│<br/>
 └── 3DCNN_VGGNet/<br/>
     ├── internally_replaced_utils.py<br/>
     ├── config.json<br/>
