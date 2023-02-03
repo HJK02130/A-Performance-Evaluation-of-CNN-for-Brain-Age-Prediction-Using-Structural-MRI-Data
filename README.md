@@ -24,7 +24,7 @@ Brain age has been proposed as a biomarker for early diagnosis and prediction of
 + Pytorch 1.3.1
 + CUDA 10.1
 + Python 3.6
-+ T4, P100 GPU
++ T4 GPU
 
 ### Note
 + You can use main.py of each folder for reproduction.
