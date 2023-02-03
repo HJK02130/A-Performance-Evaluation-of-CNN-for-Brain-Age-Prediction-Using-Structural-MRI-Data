@@ -32,7 +32,6 @@ Brain age has been proposed as a biomarker for early diagnosis and prediction of
 + ResNet modeling takes a long time !! 
 
 ### Usage
-.
 ├── 2DCNN/<br/>
 │   ├── config/<br/>
 │   │   └── config.py<br/>
